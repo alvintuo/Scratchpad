@@ -1,5 +1,4 @@
 package Prime;
-
 // import java.util.concurrent.TimeUnit;
 
 public class PrimeNumber {
@@ -26,15 +25,12 @@ public class PrimeNumber {
             if (Prime(num)) {
                 System.out.println("The number " + num + " is prime.");
                 // TimeUnit.SECONDS.sleep(1);
-                // comment out above line to not print number if not prime
             } else {
                 // System.out.println("The number " + num + " is not prime.");
                 // TimeUnit.SECONDS.sleep(1);
-                // comment out above line to not print number if not prime
             }
 
             num++;
-            // comment out above function to add delay when necessary
         }
 
 

@@ -7,7 +7,7 @@ public class FileAverage {
 
     public static void main(String[] args) throws IOException
     {
-        Scanner in = new Scanner(new File("/Users/alvintuo/Desktop/apcs/APCSDataFile.txt"));
+        Scanner in = new Scanner(new File("/Users/alvintuo/Desktop/apcs/Scratchpad/src/FileTest/APCSDataFile.txt"));
         double total = 0.0;
         int index = 0;
         while (in.hasNextLine()) {
